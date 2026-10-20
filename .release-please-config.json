@@ -1,9 +1,7 @@
 {
-  "packages": {
-    ".": {
-      "release-type": "python",
-      "package-name": "dataquantum-logger",
-      "include-component-in-tag": false
-    }
-  }
+  "release-type": "python",
+  "package-name": "dataquantum-logger",
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": true,
+  "include-v-in-tag": true
 }
