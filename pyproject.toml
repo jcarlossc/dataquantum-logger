@@ -1,12 +1,14 @@
 [project]
 name = "dataquantum-logger"
 version = "0.1.0"
-description = ""
+description = "Python package for simplified and reusable configuration of logging to files and the console."
 authors = [
     {name = "jcarlossc",email = "jcarlossc1977@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.11,<4.0"
+license = "MIT"
+keywords = ["logger", "logging", "dataquantum"]
 dependencies = [
 ]
 
@@ -26,3 +28,22 @@ dev = [
     "pre-commit (>=4.7.0,<5.0.0)",
     "taskipy (>=1.14.1,<2.0.0)"
 ]
+
+[tool.taskipy.tasks]
+pytest = "poetry run pytest ."
+covhtml = "poetry run pytest --cov=dataquantum_logger --cov-report=html"
+covcmd = "poetry run pytest --cov=dataquantum_logger --cov-report=term-missing"
+format = "poetry run ruff format ."
+lint = "poetry run ruff check ."
+mypy = "poetry run mypy src"
+check = "poetry run ruff check . && poetry run ruff format --check ."
+precommit = "poetry run pre-commit run --all-files"
+fix = "poetry run ruff check . --fix"
+release-check = "poetry run ruff check . && poetry run ruff format --check . && poetry run mypy src && poetry run pytest --cov=dataquantum_yaml_reader --cov-report=term-missing --cov-fail-under=90 && poetry build"
+
+[tool.coverage.run]
+source = ["dataquantum_yaml_reader"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 90
