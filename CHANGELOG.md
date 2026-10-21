@@ -4,6 +4,14 @@ All notable changes to this project are documented in this file.
 
 This project follows Semantic Versioning.
 
+## [0.2.0](https://github.com/jcarlossc/dataquantum-logger/compare/v0.1.1...v0.2.0) (2026-10-21)
+
+
+### Features
+
+* setup_logger function added ([8c6bbdc](https://github.com/jcarlossc/dataquantum-logger/commit/8c6bbdc6cf7485ee7232bbb4f0e0f78de3c16aea))
+* setup_logger function added ([6c96ff1](https://github.com/jcarlossc/dataquantum-logger/commit/6c96ff17ad46848986e0c20e4da820df1ba6897e))
+
 ## [0.1.1](https://github.com/jcarlossc/dataquantum-logger/compare/v0.1.0...v0.1.1) (2026-10-20)
 
 
