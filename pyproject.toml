@@ -1,6 +1,6 @@
 [project]
 name = "dataquantum-logger"
-version = "0.2.1"
+version = "0.3.0"
 description = "Python package for simplified and reusable configuration of logging to files and the console."
 authors = [
     {name = "jcarlossc",email = "jcarlossc1977@gmail.com"}

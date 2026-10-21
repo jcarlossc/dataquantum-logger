@@ -4,6 +4,14 @@ All notable changes to this project are documented in this file.
 
 This project follows Semantic Versioning.
 
+## [0.3.0](https://github.com/jcarlossc/dataquantum-logger/compare/v0.2.1...v0.3.0) (2026-10-21)
+
+
+### Features
+
+* publish file added ([f08a076](https://github.com/jcarlossc/dataquantum-logger/commit/f08a0767f9b4678cfdf609e3359d2fa2d520a1e7))
+* publish file added ([d7953e0](https://github.com/jcarlossc/dataquantum-logger/commit/d7953e0e2ed2bfb72f3381186fd0aa55868c16cf))
+
 ## [0.2.1](https://github.com/jcarlossc/dataquantum-logger/compare/v0.2.0...v0.2.1) (2026-10-21)
 
 
